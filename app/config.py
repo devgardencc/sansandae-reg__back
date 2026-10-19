@@ -2,7 +2,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
-    allowed_hosts: list[str] = ["https://join.devgarden.cc"]
+    allowed_hosts: list[str] = ["https://forms.sansandae.com"]
     environment: str
     telegram_bot_token: str
     telegram_chat_id: int
